@@ -18,7 +18,7 @@ const About = () => {
             }
             alt={name}
             className='about__picture'
-          />
+            />
         )}
 
     <div className='about__intro'>

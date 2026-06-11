@@ -13,7 +13,7 @@
 
 .about__desc {
   font-size: 1rem;
-  max-width: 600px;
+  max-width: 900px;
 }
 
 .about__desc,
@@ -27,6 +27,12 @@
 
 .about .btn--outline {
   margin-right: 1em;
+}
+
+.about__picture{
+  height: 200px;
+  object-fit:cover;
+  width: 200px;
 }
 
 @media (max-width: 600px) {
