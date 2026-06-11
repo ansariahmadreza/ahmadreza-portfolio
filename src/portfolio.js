@@ -1,4 +1,3 @@
-
 const header = {
   // all the properties are optional - can be left empty or deleted
   homepage: 'https://ahmadreza-portfolio.vercel.app',
@@ -13,7 +12,7 @@ const about = {
 
   description:
     " Hi, I’m a Frontend Developer focused on building modern and responsive web applications using JavaScript, React, and TypeScript. I enjoy turning ideas into real, functional products and continuously improving my skills through hands-on projects.My goal is to grow as a professional developer, contribute to real-world projects, and eventually work in a team where I can learn and deliver high-quality frontend solutions.",
-  resume: 'یبسل',
+  resume: '',
   social: {
     linkedin: 'https://www.linkedin.com/in/ahmadreza-ansari-894b36348',
     github: 'https://github.com/ansariahmadreza',
