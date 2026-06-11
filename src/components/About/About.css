@@ -39,8 +39,10 @@
 
 .about__picture {
   width: 180px;
-  height: 180px;
-  border-radius: 50%;
+  height: 220px;
+  line-height: 15px;
+  border-radius: 70%;
+  /* round profile */
   object-fit: cover;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
@@ -69,8 +71,12 @@
   }
 
   .about__picture {
-    width: 140px;
-    height: 140px;
+    width: 160px;
+    height: 200px;
+    /* round profile */
+    border-radius: 70%;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
   }
 
   .about__desc {
