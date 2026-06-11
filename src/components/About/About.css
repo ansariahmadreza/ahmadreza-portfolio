@@ -1,6 +1,7 @@
 .about {
   flex-direction: column;
   margin-top: 3em;
+  justify-content: center;
 }
 
 .about__name {
@@ -29,35 +30,51 @@
   margin-right: 1em;
 }
 
-.about__picture{
-  height: 200px;
-  object-fit:cover;
-  width: 200px;
-}
-
-@media (max-width: 600px) {
-  .app .about {
-    align-items: flex-start;
-    margin-top: 2em;
-  }
-}
-
 .about__header {
   display: flex;
   align-items: center;
-  gap: 1.5rem; /* space between picture and text */
+  gap: 1.5rem;
   margin-bottom: 1.5rem;
 }
 
 .about__picture {
   width: 180px;
   height: 180px;
-  border-radius: 70%;   /* round profile */
+  border-radius: 50%;
   object-fit: cover;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
 .about__intro {
   display: flex;
   flex-direction: column;
+}
+
+@media (max-width: 600px) {
+  .app .about {
+    align-items: center;
+    margin-top: 2em;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .about__header {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .about__intro {
+    align-items: center;
+  }
+
+  .about__picture {
+    width: 140px;
+    height: 140px;
+  }
+
+  .about__desc {
+    max-width: 100%;
+    padding: 0 1rem;
+  }
 }
