@@ -28,7 +28,7 @@ const projects = [
     'A modern ASOS-inspired e-commerce app built with Next.js and TypeScript, featuring authentication, product search, filtering, sorting, pagination, cart functionality, and PWA support. Fully responsive and optimized for a smooth user experience.',
     stack: ['Tailwind CSS', 'TypeScript', 'Next.js', 'NextAuth', 'ContextApi', 'PWA'],
     sourceCode: 'https://github.com/ansariahmadreza/Online-Shop',
-    livePreview: 'https://online-shop-pi-ivory.vercel.app/clothes',
+    livePreview: 'https://online-shop-xw45.vercel.app/clothes',
     image: '/1p.png',
   },
   {
