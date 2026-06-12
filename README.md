@@ -4,11 +4,9 @@ A clean and responsive single-page portfolio template built with React for showc
 
 ## 🚀 Live Demo
 
-Add your deployed website link here.
+https://ahmadreza-portfolio.vercel.app/
 
-## 🖼️ Preview
 
-Add a screenshot or GIF of the project.
 
 ## ✨ Features
 
