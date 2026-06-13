@@ -52,16 +52,13 @@ const projects = [
 ]
 
 const skills = [
-  // skills can be added or removed
-  // if there are no skills, Skills section won't show up
   'Tailwind CSS',
   'TypeScript',
-  'Git',
+  'Git & GitHub',
   'React',
   'Next.js',
-  "Linux(WSL/Terminal)"
+  'Linux (WSL + Terminal)',
 ]
-
 const contact = {
   // email is optional - if left empty Contact section won't show up
   email: 'ahmadreza.an.dev@gmail.com',
